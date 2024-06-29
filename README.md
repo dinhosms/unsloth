@@ -107,7 +107,7 @@ conda create --name unsloth_env \
     -y
 conda activate unsloth_env
 
-pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+pip install "unsloth[colab-new] @ git+https://github.com/dinhosms/unsloth.git"
 
 pip install --no-deps "trl<0.9.0" peft accelerate bitsandbytes
 ```
@@ -125,10 +125,10 @@ pip install --upgrade --force-reinstall --no-cache-dir torch==2.1.0 triton \
   --index-url https://download.pytorch.org/whl/cu121
 ```
 ```bash
-pip install "unsloth[cu118] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu118-ampere] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121-ampere] @ git+https://github.com/unslothai/unsloth.git"
+pip install "unsloth[cu118] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu118-ampere] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121-ampere] @ git+https://github.com/dinhosms/unsloth.git"
 ```
 3. For Pytorch 2.1.1: Use the `"ampere"` path for newer RTX 30xx GPUs or higher.
 ```bash
@@ -136,10 +136,10 @@ pip install --upgrade --force-reinstall --no-cache-dir torch==2.1.1 triton \
   --index-url https://download.pytorch.org/whl/cu121
 ```
 ```bash
-pip install "unsloth[cu118-torch211] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121-torch211] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu118-ampere-torch211] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121-ampere-torch211] @ git+https://github.com/unslothai/unsloth.git"
+pip install "unsloth[cu118-torch211] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121-torch211] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu118-ampere-torch211] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121-ampere-torch211] @ git+https://github.com/dinhosms/unsloth.git"
 ```
 4. For Pytorch 2.2.0: Use the `"ampere"` path for newer RTX 30xx GPUs or higher.
 ```bash
@@ -147,10 +147,10 @@ pip install --upgrade --force-reinstall --no-cache-dir torch==2.2.0 triton \
   --index-url https://download.pytorch.org/whl/cu121
 ```
 ```bash
-pip install "unsloth[cu118-torch220] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121-torch220] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu118-ampere-torch220] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121-ampere-torch220] @ git+https://github.com/unslothai/unsloth.git"
+pip install "unsloth[cu118-torch220] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121-torch220] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu118-ampere-torch220] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121-ampere-torch220] @ git+https://github.com/dinhosms/unsloth.git"
 ```
 5. If you get errors, try the below first, then go back to step 1:
 ```bash
@@ -159,19 +159,19 @@ pip install --upgrade pip
 6. For Pytorch 2.2.1:
 ```bash
 # RTX 3090, 4090 Ampere GPUs:
-pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+pip install "unsloth[colab-new] @ git+https://github.com/dinhosms/unsloth.git"
 pip install --no-deps packaging ninja einops flash-attn xformers trl peft accelerate bitsandbytes
 
 # Pre Ampere RTX 2080, T4, GTX 1080 GPUs:
-pip install "unsloth[colab-new] @ git+https://github.com/unslothai/unsloth.git"
+pip install "unsloth[colab-new] @ git+https://github.com/dinhosms/unsloth.git"
 pip install --no-deps xformers "trl<0.9.0" peft accelerate bitsandbytes
 ```
 7. For Pytorch 2.3.0: Use the `"ampere"` path for newer RTX 30xx GPUs or higher.
 ```bash
-pip install "unsloth[cu118-torch230] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121-torch230] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu118-ampere-torch230] @ git+https://github.com/unslothai/unsloth.git"
-pip install "unsloth[cu121-ampere-torch230] @ git+https://github.com/unslothai/unsloth.git"
+pip install "unsloth[cu118-torch230] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121-torch230] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu118-ampere-torch230] @ git+https://github.com/dinhosms/unsloth.git"
+pip install "unsloth[cu121-ampere-torch230] @ git+https://github.com/dinhosms/unsloth.git"
 ```
 8. To troubleshoot installs try the below (all must succeed). Xformers should mostly all be available.
 ```bash
